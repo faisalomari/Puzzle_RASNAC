@@ -29,12 +29,6 @@
   </ul>
   
   <h2 id="installation">Installation</h2>
-  <p>
-    Provide instructions on how to install and set up the Puzzle RANSAC project. Include any dependencies or prerequisites required for running the application.
-  </p>
-  
-  <h2 id="usage">Usage</h2>
-
 <ol>
   <li>Clone the repository:</li>
 
@@ -47,6 +41,10 @@
   <pre>
   pip install opencv-python
   </pre>
+  
+  <h2 id="usage">Usage</h2>
+
+
 
   <li>Place your puzzle images in the specified folder.</li>
 
