@@ -6,7 +6,7 @@
     <a href="#key-features">Key Features</a> •
     <a href="#installation">Installation</a> •
     <a href="#usage">Usage</a> •
-    <a href="#contributing">Contributing</a> •
+    <a href="#contributing">Contributing</a>
   </p>
   
   <hr>
