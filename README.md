@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>Puzzle RANSAC Project</title>
-</head>
 <body>
   <h1 align="center">Puzzle RANSAC Project</h1>
   <p align="center">A computer vision project utilizing RANSAC algorithm to solve jigsaw puzzles.</p>
@@ -52,4 +46,3 @@
   
   <hr>
 </body>
-</html>
