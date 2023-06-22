@@ -34,17 +34,11 @@
   <pre>
   git clone &lt;repository_url&gt;
   </pre>
-
   <li>Install the required dependencies:</li>
-
   <pre>
   pip install opencv-python
   </pre>
-  
   <h2 id="usage">Usage</h2>
-
-
-
   <li>Place your puzzle images in the specified folder.</li>
 
   <li>Run the Python script:</li>
