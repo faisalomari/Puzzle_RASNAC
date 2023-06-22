@@ -1,39 +1,46 @@
-<h1 align="center">Puzzle RANSAC Project</h1>
+<pre>
+<h1 align="center">Image Puzzle Solver</h1>
 
-<p align="center">A computer vision project utilizing RANSAC algorithm to solve jigsaw puzzles.</p>
+<p>This is a Python code for solving image puzzles by merging multiple images into a single panoramic image.</p>
 
-<p align="center">
-  <a href="#overview">Overview</a> •
-  <a href="#key-features">Key Features</a> •
-  <a href="#installation">Installation</a> •
-  <a href="#usage">Usage</a> •
-  <a href="#contributing">Contributing</a> •
-  <a href="#license">License</a>
-</p>
+<h2>Description</h2>
 
----
+<p>The code is implemented using the OpenCV library in Python. It provides functions for loading images, detecting keypoints and descriptors, matching keypoints, estimating affine transformations and homographies, and merging images to create a panorama.</p>
 
-## Overview
+<h2>Requirements</h2>
 
-The Puzzle RANSAC project is a computer vision application that aims to solve jigsaw puzzles automatically using the RANSAC (Random Sample Consensus) algorithm. By analyzing the puzzle pieces, their shapes, and matching their edges, the project provides an efficient and accurate solution for assembling jigsaw puzzles.
+<ul>
+  <li>Python 3.x</li>
+  <li>OpenCV</li>
+</ul>
 
-## Key Features
+<h2>Usage</h2>
 
-- Jigsaw puzzle solver: Automatically solves jigsaw puzzles by identifying piece orientations and arranging them to form the complete puzzle.
-- Affine and Homography transformations: Supports both affine and homography transformations to handle different types of puzzles.
-- Feature matching: Utilizes feature detection and matching techniques to accurately align puzzle pieces based on their edges and shapes.
-- RANSAC algorithm: Implements the RANSAC algorithm for robust estimation and filtering of noisy matches.
-- Configurable parameters: Allows customization of parameters such as RANSAC threshold, iteration count, and matching ratios for optimal puzzle solving.
+<ol>
+  <li>Clone the repository:</li>
 
-## Installation
+  <pre>
+  git clone &lt;repository_url&gt;
+  </pre>
 
-Provide instructions on how to install and set up the Puzzle RANSAC project. Include any dependencies or prerequisites required for running the application.
+  <li>Install the required dependencies:</li>
 
-## Usage
+  <pre>
+  pip install opencv-python
+  </pre>
 
-Provide detailed instructions on how to use the project, including any command-line options or specific steps for running the puzzle solver. Include examples and code snippets if necessary.
+  <li>Place your puzzle images in the specified folder.</li>
 
-## Contributing
+  <li>Run the Python script:</li>
 
-We welcome contributions from the community! If you find any issues or have ideas for improvements, please follow our guidelines for contributing. You can submit bug reports, feature requests, or even pull requests to help enhance the Puzzle RANSAC project.
+  <pre>
+  python puzzle_solver.py
+  </pre>
 
+  <li>The script will generate the panorama image and save it in the output folder.</li>
+</ol>
+
+<h2>License</h2>
+
+<p>This code is released under the MIT License. See <a href="LICENSE">LICENSE</a> for more information.</p>
+</pre>
