@@ -37,12 +37,3 @@ Provide detailed instructions on how to use the project, including any command-l
 
 We welcome contributions from the community! If you find any issues or have ideas for improvements, please follow our guidelines for contributing. You can submit bug reports, feature requests, or even pull requests to help enhance the Puzzle RANSAC project.
 
-## License
-
-Specify the license under which the project is distributed. Include any relevant licensing information and terms.
-
----
-
-<p align="center">
-  <strong>Feel free to provide any additional information or badges here.</strong>
-</p>
