@@ -34,9 +34,30 @@
   </p>
   
   <h2 id="usage">Usage</h2>
-  <p>
-    Provide detailed instructions on how to use the project, including any command-line options or specific steps for running the puzzle solver. Include examples and code snippets if necessary.
-  </p>
+
+<ol>
+  <li>Clone the repository:</li>
+
+  <pre>
+  git clone &lt;repository_url&gt;
+  </pre>
+
+  <li>Install the required dependencies:</li>
+
+  <pre>
+  pip install opencv-python
+  </pre>
+
+  <li>Place your puzzle images in the specified folder.</li>
+
+  <li>Run the Python script:</li>
+
+  <pre>
+  python puzzle_solver.py
+  </pre>
+
+  <li>The script will generate the panorama image and save it in the output folder.</li>
+</ol>
   
   <h2 id="contributing">Contributing</h2>
   <p>
