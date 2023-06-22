@@ -1,9 +1,5 @@
 <h1 align="center">Puzzle RANSAC Project</h1>
 
-<p align="center">
-  <img src="path/to/project_logo.png" alt="Project Logo" width="200">
-</p>
-
 <p align="center">A computer vision project utilizing RANSAC algorithm to solve jigsaw puzzles.</p>
 
 <p align="center">
